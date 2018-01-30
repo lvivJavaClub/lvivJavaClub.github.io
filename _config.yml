@@ -3,6 +3,6 @@ description: > #
   Lviv JavaClub.
 url: "https://lvivjavaclub.github.io/"
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
