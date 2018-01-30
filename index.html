@@ -2,24 +2,6 @@
 layout: default
 ---
 <div>
-   <h3 class="page-heading">Posts:</h3>
-   <ul class="post-list">
-   {% for post in site.posts %}
-     <li>
-       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-       <h4>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-       </h4>
-       <span class="post-meta">{{ post.date | date: date_format }}</span>
-       <div class="post-content" itemprop="articleBody">
-         {{ post.content }}
-       </div>
-     </li>
-   {% endfor %}
-   </ul>
-   <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-</div>
-
 {% for post in site.posts %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -43,3 +25,5 @@ layout: default
   </div>
 </article>
 {% endfor %}
+<p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+</div>
