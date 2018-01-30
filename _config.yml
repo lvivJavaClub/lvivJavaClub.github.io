@@ -1,8 +1,12 @@
 title: Lviv JavaClub
 description: > #
-  Lviv JavaClub.
+  Lviv JavaClub bla bla.
 url: "https://lvivjavaclub.github.io/"
 
+sass:
+  sass_dir: _sass
+  style: compressed
+  
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
