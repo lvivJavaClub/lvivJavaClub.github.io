@@ -3,7 +3,7 @@ layout: default
 ---
 <div>
 {% for page in site.posts %}
-    {{ content }}
+    {{ page.content }}
 {% endfor %}
 <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 </div>
