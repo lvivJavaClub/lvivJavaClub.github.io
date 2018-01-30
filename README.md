@@ -1,4 +1,4 @@
-Lviv JavaClub
+Welcome to Lviv JavaClub
 ======================
 text
 
