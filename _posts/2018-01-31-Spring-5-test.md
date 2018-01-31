@@ -3,7 +3,7 @@ layout: post
 title:  "Spring 5 test"
 image: /images/default.png
 tags: [spring5, test]
-date: 2018-01-31 19:20:00 +0200
+date: 2018-01-31 19:21:00 +0200
 ---
 
 Hi, this week on Java club
