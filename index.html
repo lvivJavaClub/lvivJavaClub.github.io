@@ -10,21 +10,21 @@ layout: default
 	    <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
     </h1>
     <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      <small><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
-      </time>
+      </time></small>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ page.content }}
   </div>
 	
-  <div class="post-tags">Tags:
+  <div class="post-tags"><small>Tags:
   {% for tag in page.tags %}
     <a href="tag.html#{{ tag | slugify }}"> {{ tag }} </a>
   {% endfor %}
-  </div>
+  </small></div>
 </article>
 <br/>
 {% endfor %}
