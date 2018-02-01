@@ -6,6 +6,7 @@ url: "https://lvivjavaclub.github.io/"
 
 site:
   github:
+    is_project_page: true
     repository_url: https://github.com/lvivJavaClub
 
 # Google services
