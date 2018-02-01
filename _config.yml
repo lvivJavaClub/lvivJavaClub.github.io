@@ -2,7 +2,15 @@ title: Lviv JavaClub
 description: > #
   Lviv JavaClub bla bla.
 url: "https://lvivjavaclub.github.io/"
-  
+
+
+site:
+  github:
+    repository_url: https://github.com/lvivJavaClub
+
+# Google services
+google_analytics: UA-1596745-41
+
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
