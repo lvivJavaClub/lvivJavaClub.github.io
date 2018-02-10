@@ -13,6 +13,6 @@ site:
 google_analytics: UA-1596745-41
 
 theme: jekyll-theme-cayman
-paginate: 1
+paginate: 5
 plugins:
   - jekyll-feed
