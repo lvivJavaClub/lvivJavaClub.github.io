@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Event #45: Spring 5"
+title:  "Event #43: WebSocket"
 image: /images/default.png
-tags: [spring5, video, intro]
-date:   2018-01-23 16:30:00 +0200
+tags: [websocket, video, intro]
+date:   2018-01-09 16:30:00 +0200
 ---
 
 This week on Java club
-Spring 5: intro session
+WebSocket: intro session
 
 Join us next Thursday, at 10:00 in Jamaika (Room 223)
