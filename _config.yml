@@ -1,6 +1,6 @@
 title: Lviv JavaClub
 description: > #
-  Lviv JavaClub bla bla.
+  Let's become the best together
 url: "https://lvivjavaclub.github.io/"
 
 
@@ -13,5 +13,6 @@ site:
 google_analytics: UA-1596745-41
 
 theme: jekyll-theme-cayman
+paginate: 1
 plugins:
   - jekyll-feed
