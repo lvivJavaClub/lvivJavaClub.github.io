@@ -3,11 +3,7 @@ description: > #
   Let's become the best together
 url: "https://lvivjavaclub.github.io/"
 
-
-site:
-  github:
-    is_project_page: true
-    repository_url: https://github.com/lvivJavaClub
+githuburl: https://github.com/lvivJavaClub
 
 # Google services
 google_analytics: UA-1596745-41
