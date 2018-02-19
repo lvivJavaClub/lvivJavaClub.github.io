@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reactive Spring"
+title:  "Event #47: Reactive Spring"
 image: /images/default.png
 tags: [spring, reactiveprogramming, mongobd, websockets]
 date: 2018-02-13 16:28:00 +0200
