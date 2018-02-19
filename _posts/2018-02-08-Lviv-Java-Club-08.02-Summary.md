@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Summary Event #47: Spring 5"
+title:  "Lviv Java Club 08.02 Summary"
 image: /images/default.png
 tags: [spring5, coding, summary]
 date:   2018-02-08 13:30:00 +0200
