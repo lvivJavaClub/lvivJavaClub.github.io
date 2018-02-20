@@ -2,7 +2,7 @@
 layout: post
 title:  "Lviv Java Club 15.02 Summary"
 image: /images/default.jpg
-tags: [spring, spring5, reactiveprogramming, mongobd, websockets]
+tags: [spring, spring5, reactiveprogramming, mongobd, websockets, summary]
 date: 2018-02-15 18:02:00 +0200
 ---
 

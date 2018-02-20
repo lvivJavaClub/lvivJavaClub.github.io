@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Event #43: WebSocket"
+title:  "Event#44 WebSocket"
 image: /images/default.png
-tags: [websocket, video, intro]
-date:   2018-01-09 16:30:00 +0200
+tags: [websocket, coding]
+date:   2018-01-16 16:30:00 +0200
 ---
 
 This week on Java club
-WebSocket: intro session
+WebSocket: codding session
 
 Join us next Thursday, at 10:00 in Jamaika (Room 223)
