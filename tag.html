@@ -4,14 +4,15 @@ title: Tags
 ---
 <a href="{{ site.url }}" >Home</a>
 <div class="tags-expo">
+    {% assign sortedTags = (site.tags | sort:0) %}
     <div class="tags-expo-list">Tags:
-        {% for tag in site.tags %}
+        {% for tag in sortedTags  %}
         <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
         {% endfor %}
     </div>
     <hr/>
     <div class="tags-expo-section">
-        {% for tag in site.tags %}
+        {% for tag in sortedTags %}
         <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
         <ul class="tags-expo-posts">
             {% for post in tag[1] %}
