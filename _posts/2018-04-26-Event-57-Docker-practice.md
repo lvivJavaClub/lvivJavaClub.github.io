@@ -3,7 +3,7 @@ layout: post
 title:  "Event#57 Docker practice"
 image: /images/default.jpg
 tags: [docker, containers, java, code]
-date: 2018-04-23 17:50:00 +0200
+date: 2018-04-26 17:50:00 +0200
 ---
 
 This week on Java club
