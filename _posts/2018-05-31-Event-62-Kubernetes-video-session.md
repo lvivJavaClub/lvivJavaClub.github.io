@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#62 Kubernetes - video session"
 image: /images/default.jpg
-tags: []
+tags: [k8s, kubernetes, google, cloud]
 date: 2018-05-31 14:52:00 +0200
 ---
 
