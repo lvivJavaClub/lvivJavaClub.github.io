@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#63 Kubernetes practice"
 image: /images/default.jpg
-tags: [k8, kubernetes]
+tags: [k8, kubernetes, google, cloud]
 date: 2018-06-04 16:51:00 +0200
 ---
 
