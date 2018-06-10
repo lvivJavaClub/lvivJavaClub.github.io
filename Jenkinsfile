@@ -6,6 +6,10 @@ pipeline {
 
   agent any
 
+  triggers {
+        cron('0 0 1 1 *')
+  }
+  
   parameters {
     string(
         name: 'post_title',
