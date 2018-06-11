@@ -95,7 +95,8 @@ pipeline {
               "\n" +
               "${params.post_body} [${params.details_url}](${params.details_url})\n\n" +
               "Join us next Thursday, at 10:00 in ${params.room}"
-          "\n"
+
+          sh 'printenv'
         }
       }
     }
