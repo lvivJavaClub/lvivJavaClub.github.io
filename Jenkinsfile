@@ -21,6 +21,11 @@ pipeline {
         description: 'Use GitHub MD format',
         defaultValue: 'This week on Java club Last week we'
     )
+    booleanParam(
+        name: 'post_footer',
+        description: 'Add "Join us next Thursday, at 10:00 in  room"',
+        defaultValue: true
+    )
     choice(
         name: 'room',
         description: '',
@@ -83,7 +88,7 @@ pipeline {
           env.FILENAME = "${dateday}-${title}.md"
 
           env.MESSAGE = "${params.post_body} ${params.details_url}\n" +
-              "Join us next Thursday, at 10:00 in ${params.room}"
+              ({params.post_footer} ? "Join us next Thursday, at 10:00 in ${params.room}" : "")
 
           env.POST = "---\n" +
               "layout: post\n" +
@@ -94,7 +99,7 @@ pipeline {
               "---\n" +
               "\n" +
               "${params.post_body} [${params.details_url}](${params.details_url})\n\n" +
-              "Join us next Thursday, at 10:00 in ${params.room}"
+              ({params.post_footer} ? "Join us next Thursday, at 10:00 in ${params.room}" : "")
 
           sh 'printenv'
         }
