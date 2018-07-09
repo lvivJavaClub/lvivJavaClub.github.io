@@ -7,9 +7,9 @@ pipeline {
   agent any
 
   triggers {
-        cron('0 0 1 1 *')
+    cron('H H 1 1 *')
   }
-  
+
   parameters {
     string(
         name: 'post_title',
@@ -70,6 +70,8 @@ pipeline {
             error 'avoid auto run'
           }
           dir("${env.WORKSPACE}") {
+            sh 'git fetch'
+            sh 'git pull'
             sh "git config remote.origin.url 'https://${env.GIT_TOKEN}@github.com/lvivJavaClub/lvivJavaClub.github.io.git'"
             sh 'git clean -fdx'
           }
@@ -87,7 +89,9 @@ pipeline {
 
           env.FILENAME = "${dateday}-${title}.md"
 
-          env.MESSAGE = "${params.post_body} ${params.details_url}\n" +
+          env.MESSAGE = "${params.post_body.replaceAll("'ll", " will")}" +
+              ({params.details_url} ? "${params.details_url}" : "") +
+              "\\n" +
               ({params.post_footer} ? "Join us next Thursday, at 10:00 in ${params.room}" : "")
 
           env.POST = "---\n" +
@@ -98,7 +102,9 @@ pipeline {
               "date: ${datetime}:00 +0200\n" +
               "---\n" +
               "\n" +
-              "${params.post_body} [${params.details_url}](${params.details_url})\n\n" +
+              "${params.post_body}" +
+              ({params.details_url} ? "[${params.details_url}](${params.details_url})" : "") +
+              "\n\n" +
               ({params.post_footer} ? "Join us next Thursday, at 10:00 in ${params.room}" : "")
 
           sh 'printenv'
