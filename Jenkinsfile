@@ -56,13 +56,22 @@ pipeline {
     SLACK_DEEJAY_TOKEN = credentials("slack_deejay_hooks")
 
     GIT_TOKEN = credentials("Jenkins-GitHub-Apps-Personal-access-tokens")
-
-    SKIP_AUTO_RUN = params.post_title == ''
   }
 
   stages {
 
-    stage('Pre build') {
+    stage('Set up env') {
+      when {
+        branch 'master'
+      }
+      steps {
+        script {
+          env.SKIP_AUTO_RUN = params.post_title == ''
+        }
+      }
+    }
+
+    stage('Set up git env') {
       when {
         branch 'master'
         environment name: 'SKIP_AUTO_RUN', value: 'false'
