@@ -6,6 +6,6 @@ tags: [AWS Lambda, API GW, Cognito]
 date: 2018-09-13 11:27:00 +0200
 ---
 
-This week on Java club we watched a DevOXX talk about AWS Lambda and companion services. Join us next Thursday at 10:00 in Jamaika (room 223) for the coding session![]()
+This week on Java club we watched a DevOXX talk about AWS Lambda and companion services. 
 
-Join us next Thursday, at 10:00 in Jamaika (room 223)
+Join us next Thursday at 10:00 in Jamaika (room 223) for the coding session!
