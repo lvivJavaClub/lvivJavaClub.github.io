@@ -10,4 +10,4 @@ This week we will play with Hazelcast jet. GitHub repo:
 
 [http://bit.ly/2OHXY5d](http://bit.ly/2OHXY5d)
 
-Join us next Thursday, at 10:00 in Jamaika (room 223)
+Join us next Thursday, at 10:00 in Jamaica (room 223)

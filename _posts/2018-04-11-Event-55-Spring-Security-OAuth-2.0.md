@@ -9,5 +9,5 @@ date: 2018-04-11 09:42:00 +0200
 This week on Java club
 we'll continue playing with Spring Security Oauth 2.0. We'll finish client-server integration an will implement revoke token functionality. []()
 
-Join us next Thursday, at 10:00 in Jamaika (room 223)
+Join us next Thursday, at 10:00 in Jamaica (room 223)
 

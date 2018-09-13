@@ -10,5 +10,5 @@ This week on Java club
 we will examine Spring Security Oauth 2.0 support. We will code both client and authorization server implementations.
 See repository `oauth2` on GitHub  [http://bit.ly/2GsQtjd](http://bit.ly/2GsQtjd)
 
-Join us next Thursday, at 10:00 in Jamaika (room 223)
+Join us next Thursday, at 10:00 in Jamaica (room 223)
 

@@ -8,4 +8,4 @@ date: 2018-07-02 18:11:00 +0200
 
 This week on Java Club we will try GraphQL in action. We will develop our own endpoint and will try to query and mutate the data using GraphQL. GitHub repo:  [http://bit.ly/2LZH6FP](http://bit.ly/2LZH6FP)
 
-Join us next Thursday, at 10:00 in Jamaika (room 223)
+Join us next Thursday, at 10:00 in Jamaica (room 223)

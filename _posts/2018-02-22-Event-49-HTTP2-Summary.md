@@ -10,4 +10,4 @@ Hi, this week on Java club
 we watched a Devoxx talk "HTTP/2 Two Years Later" by Jesse McConnell and Simone Bordet. The video was about HTTP/2 main ideas and advantages, issues and how it is supported in the Java ecosystem
 The video URL: [https://youtu.be/6tNqAFQ_gAc](https://youtu.be/6tNqAFQ_gAc)
 
-Join us next Thursday, at 10:00 in Jamaika (room 223)
+Join us next Thursday, at 10:00 in Jamaica (room 223)
