@@ -29,7 +29,7 @@ pipeline {
     choice(
         name: 'room',
         description: '',
-        choices: 'Jamaika (room 223)\nSpain (room 426)'
+        choices: 'Jamaica (room 223)\nSpain (room 426)'
     )
     string(
         name: 'details_url',
