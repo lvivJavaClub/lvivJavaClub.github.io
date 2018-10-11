@@ -61,9 +61,9 @@ pipeline {
   stages {
 
     stage('Set up env') {
-      when {
-        branch 'master'
-      }
+      //when {
+        // branch 'master'
+      // }
       steps {
         script {
           println currentBuild.rawBuild.getCauses()[0].toString().contains('SCMTriggerCause')
@@ -76,7 +76,7 @@ pipeline {
 
     stage('Set up git env') {
       when {
-        branch 'master'
+        // branch 'master'
         environment name: 'SKIP_AUTO_RUN', value: 'false'
       }
       steps {
@@ -93,7 +93,7 @@ pipeline {
 
     stage('Prepare post') {
       when {
-        branch 'master'
+        //branch 'master'
         environment name: 'SKIP_AUTO_RUN', value: 'false'
       }
       steps {
@@ -130,7 +130,7 @@ pipeline {
 
     stage('Create post') {
       when {
-        branch 'master'
+        //branch 'master'
         environment name: 'SKIP_AUTO_RUN', value: 'false'
       }
       steps {
