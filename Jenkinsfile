@@ -14,7 +14,7 @@ pipeline {
     string(
         name: 'post_title',
         description: 'Used for filename and post.sh name. The space will be replaced by `-` inv the file name.',
-        defaultValue: ''
+        defaultValue: "${env.GIT_COMMIT} _ hello"
     )
     text(
         name: 'post_body',
