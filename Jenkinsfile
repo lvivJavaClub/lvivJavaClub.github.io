@@ -66,7 +66,10 @@ pipeline {
       }
       steps {
         script {
-          env.SKIP_AUTO_RUN = params.post_title == ''
+          println currentBuild.rawBuild.getCauses()[0].toString().contains('SCMTriggerCause')
+          // env.SKIP_AUTO_RUN = params.post_title == ''
+          env.SKIP_AUTO_RUN = currentBuild.rawBuild.getCauses()[0].toString().contains('SCMTriggerCause')
+          sh 'printenv'
         }
       }
     }
@@ -145,6 +148,7 @@ pipeline {
       }
     }
 
+/*
     stage('Post reminders') {
       when {
         branch 'master'
@@ -156,6 +160,8 @@ pipeline {
         }
       }
     }
+    */
+
   }
 
   post {
