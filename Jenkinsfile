@@ -66,7 +66,7 @@ pipeline {
       // }
       steps {
         script {
-          println "================ " + currentBuild.rawBuild.getCauses() //[0].toString().contains('SCMTriggerCause')
+          sh  "echo ================ ${currentBuild.rawBuild.getCauses()"
           // env.SKIP_AUTO_RUN = params.post_title == ''
           env.SKIP_AUTO_RUN = currentBuild.rawBuild.getCauses()[0].toString().contains('SCMTriggerCause')
           sh 'printenv'
