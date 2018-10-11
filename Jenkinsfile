@@ -66,10 +66,7 @@ pipeline {
       // }
       steps {
         script {
-          sh  "echo ================ ${currentBuild.rawBuild.getCauses()[0].toString()}"
-          // env.SKIP_AUTO_RUN = params.post_title == ''
           env.SKIP_AUTO_RUN = !currentBuild.rawBuild.getCauses()[0].toString().contains('UserIdCause')
-          sh 'printenv'
         }
       }
     }
