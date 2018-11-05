@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#81 Axon Framework"
 image: /images/default.jpg
-tags: []
+tags: [Axon, CQRS]
 date: 2018-11-05 17:37:00 +0200
 ---
 
