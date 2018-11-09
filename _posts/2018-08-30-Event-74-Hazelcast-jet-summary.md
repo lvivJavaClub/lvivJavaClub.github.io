@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#73 Hazelcast jet summary"
+title:  "Event#74 Hazelcast jet summary"
 image: /images/default.jpg
 tags: [Hazelcast, Hazelcast jet]
 date: 2018-08-30 12:15:00 +0200
