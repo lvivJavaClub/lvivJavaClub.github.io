@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#78 AWS Lambda coding session 4"
+title:  "Event#80 AWS Lambda coding session 4"
 image: /images/default.jpg
 tags: [DynamoDB, AWS, Lambda, SNS]
 date: 2018-10-08 16:12:00 +0200
