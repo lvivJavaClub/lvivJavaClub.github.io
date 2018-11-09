@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#63 Kubernetes practice Summary"
 image: /images/default.jpg
-tags: [k8і, kubernetes, summary, codding, google, cloud]
+tags: [k8s, kubernetes, summary, codding, google, cloud]
 date: 2018-06-07 18:37:00 +0200
 ---
 
