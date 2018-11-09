@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#62 Kubernetes"
 image: /images/default.jpg
-tags: [kubernetes, k8s, video]
+tags: [Kubernetes, k8s, video]
 date: 2018-05-29 16:52:00 +0200
 ---
 
