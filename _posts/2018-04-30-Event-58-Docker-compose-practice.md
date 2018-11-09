@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#58 Docker compose practice"
 image: /images/default.jpg
-tags: [docker, containers, java, code, compose]
+tags: [docker, containers, java, coding, compose]
 date: 2018-04-30 16:21:00 +0200
 ---
 
