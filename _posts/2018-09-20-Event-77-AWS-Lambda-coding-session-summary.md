@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#75 AWS Lambda coding session summary"
+title:  "Event#77 AWS Lambda coding session summary"
 image: /images/default.jpg
 tags: [AWS Lambda, coding]
 date: 2018-09-20 15:55:00 +0200
