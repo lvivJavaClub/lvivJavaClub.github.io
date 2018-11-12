@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event #84 Axon Framework Summary"
+title:  "Event#84 Axon Framework Summary"
 image: /images/default.jpg
 tags: [Axon, CQRS, Summary]
 date: 2018-11-09 13:18:00 +0200
