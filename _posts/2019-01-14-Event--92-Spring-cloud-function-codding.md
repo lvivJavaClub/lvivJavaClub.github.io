@@ -2,7 +2,7 @@
 layout: post
 title:  "Event #92 Spring cloud function codding"
 image: /images/default.jpg
-tags: [spring cloud function, riff, codding]
+tags: [spring cloud function, riff, coding]
 date: 2019-01-14 16:32:00 +0200
 ---
 
