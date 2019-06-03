@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#109 Quarkus in practice"
+title:  "Event#110 Quarkus in practice"
 image: /images/default.jpg
 tags: []
 date: 2019-05-27 16:12:00 +0200
