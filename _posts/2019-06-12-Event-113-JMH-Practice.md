@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#113 JMH Practice"
 image: /images/default.jpg
-tags: []
+tags: [jmh]
 date: 2019-06-12 15:43:00 +0200
 ---
 
