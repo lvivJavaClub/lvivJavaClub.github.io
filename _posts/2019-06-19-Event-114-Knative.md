@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#114 Knative"
 image: /images/default.jpg
-tags: [jmh]
+tags: [knative]
 date: 2019-06-19 15:43:00 +0200
 ---
 
