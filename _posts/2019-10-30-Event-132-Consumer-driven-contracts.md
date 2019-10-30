@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#131 Consumer-driven contracts"
+title:  "Event#132 Consumer-driven contracts"
 image: /images/default.jpg
 tags: [consumer-driven contracts ]
 date: 2019-10-30 19:55:00 +0200
