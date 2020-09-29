@@ -29,7 +29,7 @@ pipeline {
     choice(
         name: 'room',
         description: '',
-        choices: 'Jamaica (room 223)\nSpain (room 426)'
+        choices: 'Online\nin Jamaica (room 223)\nin Spain (room 426)'
     )
     string(
         name: 'details_url',
@@ -105,7 +105,7 @@ pipeline {
           env.MESSAGE = "${params.post_body.replaceAll("'ll", " will")}" +
               ({params.details_url} ? "${params.details_url}" : "") +
               "\\n" +
-              ({params.post_footer} ? "Join us next Thursday, at 10:00 in ${params.room}" : "")
+              ({params.post_footer} ? "Join us next Thursday, at 10:00 ${params.room}" : "")
 
           env.POST = "---\n" +
               "layout: post\n" +
@@ -118,7 +118,7 @@ pipeline {
               "${params.post_body}" +
               ({params.details_url} ? "[${params.details_url}](${params.details_url})" : "") +
               "\n\n" +
-              ({params.post_footer} ? "Join us next Thursday, at 10:00 in ${params.room}" : "")
+              ({params.post_footer} ? "Join us next Thursday, at 10:00 ${params.room}" : "")
 
           sh 'printenv'
         }
