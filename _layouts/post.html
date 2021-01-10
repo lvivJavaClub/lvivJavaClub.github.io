@@ -18,6 +18,13 @@ layout: default
         {{ page.content }}
     </div>
 
+    {% if page.video != null %}
+    <div class="post-video">
+        <iframe width="560" height="315" src="{{ page.video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    {% endfor %}
+
+    
     <div class="post-tags">Tags:
         {% for tag in page.tags %}
         <a href="/tag.html#{{ tag | slugify }}"> {{ tag }} </a>
