@@ -2,10 +2,9 @@
 layout: default
 title: Tags
 ---
-<a href="{{ site.url }}" >Home</a>
 <div class="tags-expo">
     {% assign sortedTags = (site.tags | sort:0) %}
-    <div class="tags-expo-list">Tags:
+    <div class="tags-expo-list"><strong>Tags:</strong>
         {% for tag in sortedTags  %}
         <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
         {% endfor %}
