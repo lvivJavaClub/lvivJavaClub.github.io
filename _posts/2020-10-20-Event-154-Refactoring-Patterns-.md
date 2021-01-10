@@ -4,6 +4,7 @@ title:  "Event#154 Refactoring Patterns "
 image: /images/default.jpg
 tags: []
 date: 2020-10-20 11:20:00 +0200
+video: UKEMHCUFDnw
 ---
 
 This week on Java club we will look at the refactoring patterns, will cover topics like (code smells, technical debt, when to start refactoring, refactoring patterns)[]()
