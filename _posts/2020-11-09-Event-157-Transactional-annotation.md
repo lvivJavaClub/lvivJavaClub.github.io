@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#157 Transactional annotation"
 image: /images/default.jpg
-tags: [Transactional]
+tags: [Transactional, Video]
 date: 2020-11-09 15:58:00 +0200
 video: prM3l6G2YkQ
 ---

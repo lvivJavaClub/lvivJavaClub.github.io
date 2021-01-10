@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#159 review MapStruct"
 image: /images/default.jpg
-tags: [MapStruct]
+tags: [MapStruct, Video]
 date: 2020-11-24 14:31:00 +0200
 video: 0fNKc0daZ-c
 ---

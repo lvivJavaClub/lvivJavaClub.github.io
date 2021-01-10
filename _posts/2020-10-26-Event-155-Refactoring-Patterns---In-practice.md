@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#155 Refactoring Patterns - In practice"
 image: /images/default.jpg
-tags: [Refactoring Patterns]
+tags: [Refactoring Patterns, Video]
 date: 2020-10-26 15:11:00 +0200
 video: UKEMHCUFDnw
 ---

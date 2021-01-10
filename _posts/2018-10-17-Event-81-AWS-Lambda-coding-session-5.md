@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#81 AWS Lambda coding session 5"
 image: /images/default.jpg
-tags: [AWS Lambda, AWS, Recognition, SNS]
+tags: [AWS Lambda, AWS, Recognition, SNS, AWS ReKognition]
 date: 2018-10-17 11:39:00 +0200
 ---
 
