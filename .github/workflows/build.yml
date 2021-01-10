@@ -1,0 +1,59 @@
+name: Site build
+on: 
+  workflow_dispatch:
+    inputs:
+      post_title:
+        description: 'Used for filename and post.sh name. The space will be replaced by `-` inv the file name.'
+        default: 'Event#'
+        required: true
+      post_body:
+        description: 'Use GitHub MD format'
+        default: 'This week on Java Club we will review the'
+        required: true
+      room:
+        description: 'Choose place: Online|in Jamaica (room 223)|in Spain (room 426)'
+        default: 'Online'
+        required: true
+      tags:
+        description: 'Tags in lowercase are separated by commas'
+        default: ''
+        required: true
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    
+    env:
+      FILENAME: ./_posts/$(date +'%Y-%m-%d')-$( echo '${{ github.event.inputs.post_title }}' | sed -r 's/[# ]+/-/g' ).md
+      MESSAGE: ${{ github.event.inputs.post_body }}
+      POST: |
+        ---
+        layout: post
+        title:  \"${{ github.event.inputs.post_title }}\"
+        image: /images/default.jpg
+        tags: [${{ github.event.inputs.tags }}]
+        date: $(date +'%Y-%m-%d %H:%M:%S %z')
+        ---
+
+        ${{ github.event.inputs.post_body }}
+      JOIN: Join us next Thursday, at 10:00 ${{ github.event.inputs.room }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+          
+      - name: Create post file
+        run: |
+          echo "${{ env.POST }}\n${{ env.JOIN }}" > "${{ env.FILENAME }}"
+            
+      - name: Push new post
+        run: |
+          git config --global user.email "releases@lvivjavaclub.github.io"
+          git config --global user.name "GitHub actions"
+          git add ${{ env.FILENAME }}
+          git commit -m 'Create ${{ github.event.inputs.post_title }}'
+          git push
+        
+      - name: Slack Notification
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+            --data '{"text":"${{ env.MESSAGE }}\n\n${{ env.JOIN }}"}' ${{ secrets.SLACK_WEBHOOK }}
