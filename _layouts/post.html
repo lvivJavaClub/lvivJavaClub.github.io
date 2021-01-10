@@ -18,11 +18,11 @@ layout: default
         {{ page.content }}
     </div>
 
-    {% if page.video != null %}
+    {% if page.video != null && page.video != "" %}
     <div class="post-video">
         <iframe width="560" height="315" src="{{ page.video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
-    {% endfor %}
+    {% endif %}
 
     
     <div class="post-tags">Tags:
