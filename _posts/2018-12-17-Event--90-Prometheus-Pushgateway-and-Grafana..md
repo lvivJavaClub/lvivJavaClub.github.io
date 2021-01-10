@@ -2,7 +2,7 @@
 layout: post
 title:  "Event #90 Prometheus Pushgateway and Grafana."
 image: /images/default.jpg
-tags: []
+tags: [Pushgateway, Grafana]
 date: 2018-12-17 16:19:00 +0200
 ---
 

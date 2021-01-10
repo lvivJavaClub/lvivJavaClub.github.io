@@ -2,7 +2,7 @@
 layout: post
 title:  "Event #91 Happy Holidays!"
 image: /images/default.jpg
-tags: []
+tags: [BOF]
 date: 2018-12-26 14:13:00 +0200
 ---
 

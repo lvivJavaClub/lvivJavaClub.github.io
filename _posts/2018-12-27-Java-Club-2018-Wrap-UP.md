@@ -2,7 +2,7 @@
 layout: post
 title:  "Java Club 2018 Wrap UP"
 image: /images/default.jpg
-tags: []
+tags: [BOF]
 date: 2018-12-27 14:4:00 +0200
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#104 Istio Monitoring"
 image: /images/default.jpg
-tags: [Istio,Prometheus,Graphana,Jaeger]
+tags: [Istio, Prometheus ,Graphana, Jaeger]
 date: 2019-04-01 16:13:00 +0200
 ---
 

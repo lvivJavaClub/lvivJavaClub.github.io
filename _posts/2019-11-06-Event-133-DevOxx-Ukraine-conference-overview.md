@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Event#133 DevOxx Ukraine conference overview "
+title:  "Event#133 DevOxx Ukraine conference overview"
 image: /images/default.jpg
-tags: [DevOxx Ukraine, conference, overview]
+tags: [DevOxx Ukraine, Conference]
 date: 2019-11-06 10:48:00 +0200
 ---
 

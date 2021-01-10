@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#60 JUnit 5 coding battle"
 image: /images/default.jpg
-tags: [summary, codding, junit5, testng, battle]
+tags: [Summary, Coding, JUnit, Testing, Battle]
 date: 2018-05-17 16:02:00 +0200
 ---
 

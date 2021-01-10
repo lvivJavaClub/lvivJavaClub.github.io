@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#119 Deeplearning4j"
 image: /images/default.jpg
-tags: []
+tags: [Deeplearning4j, ML]
 date: 2019-07-23 12:29:00 +0200
 ---
 

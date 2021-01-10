@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#49 HTTP2 Summary"
 image: /images/default.jpg
-tags: [http2, summary, video, jetty]
+tags: [Http2, Summary, Jetty]
 date: 2018-02-22 11:47:00 +0200
 ---
 

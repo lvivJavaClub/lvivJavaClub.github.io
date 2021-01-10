@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Event#98 Elasticsearch coding "
+title:  "Event#98 Elasticsearch coding"
 image: /images/default.jpg
-tags: [Elasticsearch, coding]
+tags: [Elasticsearch, Coding]
 date: 2019-02-19 16:19:00 +0200
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#135 Resilience4j"
 image: /images/default.jpg
-tags: [resilience4j, functionalprogramming, java8]
+tags: [Resilience4j, Functional programming, Java, JVM]
 date: 2019-11-18 16:17:00 +0200
 ---
 

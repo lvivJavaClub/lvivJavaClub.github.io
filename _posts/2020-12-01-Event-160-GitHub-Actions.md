@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#160 GitHub Actions"
 image: /images/default.jpg
-tags: [GitHub]
+tags: [GitHub, GitHub Actions, CICD]
 date: 2020-12-01 10:53:00 +0200
 video: tvqt9PkTF8w
 ---

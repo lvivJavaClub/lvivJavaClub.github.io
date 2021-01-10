@@ -2,7 +2,7 @@
 layout: post
 title:  "No Java Club this week"
 image: /images/default.jpg
-tags: []
+tags: [Announcement]
 date: 2019-07-29 17:47:00 +0200
 ---
 

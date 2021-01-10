@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#121 Keycloack in action"
 image: /images/default.jpg
-tags: [keycloack, javalin, thymeleaf]
+tags: [Keycloack, Javalin, Thymeleaf]
 date: 2019-08-12 16:19:00 +0200
 ---
 

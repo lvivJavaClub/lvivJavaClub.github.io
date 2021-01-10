@@ -2,7 +2,7 @@
 layout: post
 title:  "Event #92 Spring cloud function"
 image: /images/default.jpg
-tags: [video, Spring function]
+tags: [Spring function]
 date: 2019-01-08 12:53:00 +0200
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#110 Quarkus"
 image: /images/default.jpg
-tags: [jvm, quarkus]
+tags: [JVM, Quarkus]
 date: 2019-05-20 16:32:00 +0200
 ---
 

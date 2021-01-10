@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#134 Traffic Parrot"
 image: /images/default.jpg
-tags: [testing, trafficparrot, microservice]
+tags: [Testing, Traffic Parrot, Microservice]
 date: 2019-11-11 16:22:00 +0200
 ---
 

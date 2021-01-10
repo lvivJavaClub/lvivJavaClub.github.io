@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#151 Lviv Java Club is back!"
 image: /images/default.jpg
-tags: [java]
+tags: [Java, JVM]
 date: 2020-09-29 15:26:00 +0200
 ---
 

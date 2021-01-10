@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Event#145 Spring Cloud Schema Registry "
+title:  "Event#145 Spring Cloud Schema Registry"
 image: /images/default.jpg
-tags: [spring, cloud, schema register]
+tags: [Spring Cloud, Schema register]
 date: 2020-02-03 16:21:00 +0200
 ---
 

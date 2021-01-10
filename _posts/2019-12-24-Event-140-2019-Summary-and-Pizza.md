@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#140 2019 Summary and Pizza"
 image: /images/default.jpg
-tags: [api, apigateway, spring, java, pizza, summary, happyness]
+tags: [API Gateway, Spring, Java, Pizza, Summary]
 date: 2019-12-23 16:21:00 +0200
 ---
 

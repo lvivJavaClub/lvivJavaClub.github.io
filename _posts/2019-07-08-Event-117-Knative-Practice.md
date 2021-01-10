@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#117 Knative Practice"
 image: /images/default.jpg
-tags: []
+tags: [Knative, Kubernetes, k8s]
 date: 2019-07-08 16:19:00 +0200
 ---
 

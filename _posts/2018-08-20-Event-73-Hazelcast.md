@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#73 Hazelcast"
 image: /images/default.jpg
-tags: [Hazelcast, Spring, cache]
+tags: [Hazelcast, Spring, Cache]
 date: 2018-08-20 17:23:00 +0200
 ---
 

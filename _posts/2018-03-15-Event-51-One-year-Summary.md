@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#51 One year Summary"
 image: /images/default.jpg
-tags: [bof, pizza]
+tags: [BOF, Pizza]
 date: 2018-03-15 12:37:00 +0200
 ---
 

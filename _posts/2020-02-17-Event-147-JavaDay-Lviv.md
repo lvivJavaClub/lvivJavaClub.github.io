@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#147 JavaDay Lviv"
 image: /images/default.jpg
-tags: [java, JavaDay, conference]
+tags: [Java, JavaDay, Conference]
 date: 2020-02-17 16:17:00 +0200
 ---
 

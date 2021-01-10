@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#120 Keycloack"
 image: /images/default.jpg
-tags: []
+tags: [Keycloack]
 date: 2019-08-07 15:56:00 +0200
 ---
 

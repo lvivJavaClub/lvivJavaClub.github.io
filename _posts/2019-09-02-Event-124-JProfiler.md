@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#124 JProfiler"
 image: /images/default.jpg
-tags: []
+tags: [JProfiler]
 date: 2019-09-02 18:6:00 +0200
 ---
 

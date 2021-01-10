@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#60 Java Test Frameworks Battle"
 image: /images/default.jpg
-tags: [junit5,testng,unit tests,codding]
+tags: [JUnit, Testing, Coding]
 date: 2018-05-15 10:30:00 +0200
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#78 AWS Lambda coding session 2 summary"
 image: /images/default.jpg
-tags: [AWS Lambda, API Gateway]
+tags: [AWS Lambda, AWS, API Gateway]
 date: 2018-09-27 11:32:00 +0200
 ---
 

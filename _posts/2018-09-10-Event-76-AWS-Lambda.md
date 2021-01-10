@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#76 AWS Lambda"
 image: /images/default.jpg
-tags: []
+tags: [AWS Lambda, AWS]
 date: 2018-09-10 18:43:00 +0200
 ---
 

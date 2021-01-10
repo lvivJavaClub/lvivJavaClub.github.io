@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#87 DevoxUa follow-up summary"
 image: /images/default.jpg
-tags: [DevOxxUa, summary, conference]
+tags: [DevOxx Ukraine, Summary, Conference]
 date: 2018-11-29 11:35:00 +0200
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#76 AWS Lambda Intro"
 image: /images/default.jpg
-tags: [AWS Lambda, API GW, Cognito]
+tags: [AWS Lambda, AWS, API Gateway, AWS Cognito]
 date: 2018-09-13 11:27:00 +0200
 ---
 

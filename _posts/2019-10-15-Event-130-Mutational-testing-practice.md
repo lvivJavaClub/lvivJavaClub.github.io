@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#130 Mutational testing practice"
 image: /images/default.jpg
-tags: [Mutational testing, codding]
+tags: [Mutational testing, Coding, Testing]
 date: 2019-10-15 17:36:00 +0200
 ---
 

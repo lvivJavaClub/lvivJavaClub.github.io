@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#83 Networking"
 image: /images/default.jpg
-tags: [Networking, workshop]
+tags: [Networking, Workshop]
 date: 2018-10-29 16:53:00 +0200
 ---
 

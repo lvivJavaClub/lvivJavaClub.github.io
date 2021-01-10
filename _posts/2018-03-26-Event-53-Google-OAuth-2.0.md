@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#53 Google OAuth 2.0"
 image: /images/default.jpg
-tags: [oauth, security, coding, google]
+tags: [OAuth, Security, Coding, Google]
 date: 2018-03-26 16:51:00 +0200
 ---
 

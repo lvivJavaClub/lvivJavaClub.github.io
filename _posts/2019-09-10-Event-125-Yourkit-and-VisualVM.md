@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#125 Yourkit and VisualVM"
 image: /images/default.jpg
-tags: []
+tags: [Yourkit, VisualVM]
 date: 2019-09-10 14:57:00 +0200
 ---
 

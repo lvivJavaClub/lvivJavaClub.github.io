@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#127 GraalVM"
 image: /images/default.jpg
-tags: [graalvm]
+tags: [GraalVM]
 date: 2019-09-25 15:12:00 +0200
 ---
 

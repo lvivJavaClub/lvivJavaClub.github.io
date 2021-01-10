@@ -2,7 +2,7 @@
 layout: post
 title:  "Event #97 Elasticsearch"
 image: /images/default.jpg
-tags: []
+tags: [Elasticsearch]
 date: 2019-02-11 16:37:00 +0200
 ---
 

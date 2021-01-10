@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#150 Three-year JavaClube"
 image: /images/default.jpg
-tags: [pizza]
+tags: [Pizza, BOF]
 date: 2020-03-05 11:17:00 +0200
 ---
 

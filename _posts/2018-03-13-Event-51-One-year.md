@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#51 One year"
 image: /images/default.jpg
-tags: [bof]
+tags: [BOF]
 date: 2018-03-13 13:43:00 +0200
 ---
 

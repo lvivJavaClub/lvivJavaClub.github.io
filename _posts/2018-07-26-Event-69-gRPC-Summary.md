@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#69 gRPC Summary"
 image: /images/default.jpg
-tags: [summary, gRPC]
+tags: [Summary, gRPC]
 date: 2018-07-26 13:39:00 +0200
 ---
 

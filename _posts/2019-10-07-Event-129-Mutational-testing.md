@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#129 Mutational testing"
 image: /images/default.jpg
-tags: [tesing]
+tags: [Testing]
 date: 2019-10-07 16:7:00 +0200
 ---
 

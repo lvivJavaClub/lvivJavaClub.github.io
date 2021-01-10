@@ -2,7 +2,7 @@
 layout: post
 title:  "Lviv Java Club 08.02 Summary"
 image: /images/default.png
-tags: [spring5, summary]
+tags: [Spring5, Summary]
 date:   2018-02-08 13:30:00 +0200
 ---
 

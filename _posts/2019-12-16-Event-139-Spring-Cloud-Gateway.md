@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#139 Spring Cloud Gateway"
 image: /images/default.jpg
-tags: [api, api gateway, spring]
+tags: [API Gateway, Spring]
 date: 2019-12-16 16:21:00 +0200
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#123 Picocli"
 image: /images/default.jpg
-tags: [picocli, cli]
+tags: [Picocli, CLI]
 date: 2019-08-27 15:26:00 +0200
 ---
 

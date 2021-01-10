@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#64 GraphQL Summary"
 image: /images/default.jpg
-tags: [GraphQL, Summary, video]
+tags: [GraphQL, Summary]
 date: 2018-06-14 16:32:00 +0200
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#44 WebSocket"
 image: /images/default.png
-tags: [websocket, coding]
+tags: [Websocket, Coding]
 date:   2018-01-16 16:30:00 +0200
 ---
 

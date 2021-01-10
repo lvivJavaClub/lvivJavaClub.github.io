@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#61 JUnit 5 coding battle"
 image: /images/default.jpg
-tags: [junit5, testng, unit tests, codding]
+tags: [JUnit, Testing, Coding]
 date: 2018-05-21 16:07:00 +0200
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Announcement"
 image: /images/default.jpg
-tags: []
+tags: [Announcement]
 date: 2020-03-17 18:20:00 +0200
 ---
 

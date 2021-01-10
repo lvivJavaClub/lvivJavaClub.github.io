@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#54 Spring Security OAuth 2.0 Summary"
 image: /images/default.jpg
-tags: [summary, oauth, security, coding, spring, springframework]
+tags: [Summary, OAuth, Security, Coding, Sspring, Springframework]
 date: 2018-04-05 12:14:00 +0200
 ---
 

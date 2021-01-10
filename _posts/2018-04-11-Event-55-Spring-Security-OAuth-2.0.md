@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#55 Spring Security OAuth 2.0"
 image: /images/default.jpg
-tags: [oauth, security, coding, spring, springframework]
+tags: [OAuth, Security, Coding, Spring, Springframework]
 date: 2018-04-11 09:42:00 +0200
 ---
 

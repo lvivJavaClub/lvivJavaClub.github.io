@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#128 JavaDay Odessa + Java 13"
 image: /images/default.jpg
-tags: []
+tags: [JavaDay, Conference, Java, JVM]
 date: 2019-10-02 14:51:00 +0200
 ---
 

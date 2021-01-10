@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#57 Docker practice"
 image: /images/default.jpg
-tags: [docker, containers, java, coding]
+tags: [Docker, Containers, Java, Coding]
 date: 2018-04-23 17:50:00 +0200
 ---
 

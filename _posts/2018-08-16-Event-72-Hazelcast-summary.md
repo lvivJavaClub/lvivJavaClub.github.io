@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#72 Hazelcast summary"
 image: /images/default.jpg
-tags: [Hazelcast, summary]
+tags: [Hazelcast, Summary]
 date: 2018-08-16 20:4:00 +0200
 ---
 

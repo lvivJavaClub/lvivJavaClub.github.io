@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#88 Monitoring applications with Prometheus"
 image: /images/default.jpg
-tags: [Prometheus, monitoring, alerting]
+tags: [Prometheus, Monitoring, Alerting]
 date: 2018-12-04 15:49:00 +0200
 ---
 

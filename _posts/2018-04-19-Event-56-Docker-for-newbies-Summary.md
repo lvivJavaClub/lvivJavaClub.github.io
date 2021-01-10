@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#56 Docker for newbies Summary"
 image: /images/default.jpg
-tags: [docker, containers, java, video]
+tags: [Docker, Containers, Java]
 date: 2018-04-19 12:21:00 +0200
 ---
 

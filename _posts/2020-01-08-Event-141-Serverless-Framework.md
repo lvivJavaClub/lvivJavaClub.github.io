@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#141 Serverless Framework"
 image: /images/default.jpg
-tags: [Serverless Framework]
+tags: [Serverless Framework, Serverless, AWS]
 date: 2020-01-08 12:28:00 +0200
 ---
 

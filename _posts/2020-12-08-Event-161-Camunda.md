@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#161 Camunda"
 image: /images/default.jpg
-tags: [Camunda, Spring Boot]
+tags: [Camunda, Spring Boot, Saga]
 date: 2020-12-08 15:14:00 +0200
 video: nF-NjjyhHtw
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#78 AWS Lambda coding session 2"
 image: /images/default.jpg
-tags: [AWS Lambda]
+tags: [AWS Lambda, AWS]
 date: 2018-09-24 18:50:00 +0200
 ---
 

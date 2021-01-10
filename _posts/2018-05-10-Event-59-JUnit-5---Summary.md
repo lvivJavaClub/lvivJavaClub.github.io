@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#59 JUnit 5 - Summary"
 image: /images/default.jpg
-tags: []
+tags: [JUnit, Testing]
 date: 2018-05-10 12:56:00 +0200
 ---
 

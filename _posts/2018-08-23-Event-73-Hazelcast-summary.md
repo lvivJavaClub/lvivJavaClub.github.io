@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#73 Hazelcast summary"
 image: /images/default.jpg
-tags: [Hazelcast, summary, sprin-boot, sprin]
+tags: [Hazelcast, Summary, Sprinboot]
 date: 2018-08-23 15:51:00 +0200
 ---
 
