@@ -28,8 +28,5 @@ layout: default
         {% for tag in page.tags %}
         <a href="/tag.html#{{ tag | slugify }}"> {{ tag }} </a>
         {% endfor %}
-        {% if page.video != null && page.video != "" %}
-         <a href="/tag.html#YouTube">YouTube</a>
-        {% endif %}
     </div>
 </article>
