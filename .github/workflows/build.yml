@@ -44,7 +44,7 @@ jobs:
           
       - name: Create post file
         run: |
-          echo "${{ env.POST }}\n${{ env.JOIN }}" > "${{ env.FILENAME }}"
+          echo -e "${{ env.POST }}\n${{ env.JOIN }}" > "${{ env.FILENAME }}"
             
       - name: Push new post
         run: |
