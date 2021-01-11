@@ -15,7 +15,7 @@ on:
         default: 'Online'
         required: true
       tags:
-        description: 'Tags in lowercase are separated by commas'
+        description: 'Capitalized Tags separated by commas'
         default: ''
         required: true
 jobs:
