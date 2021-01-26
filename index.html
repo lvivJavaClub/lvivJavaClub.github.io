@@ -22,6 +22,12 @@ layout: default
         <div class="post-content" itemprop="articleBody">
             {{ page.content }}
         </div>
+        
+        {% if page.video != null && page.video != "" %}
+        <div class="post-video">
+            Video: <a href="https://youtu.be/{{ page.video }}">https://youtu.be/{{ page.video }}</a>
+        </div>
+        {% endif %}
 
         <div class="post-tags">
             <small>Tags:
