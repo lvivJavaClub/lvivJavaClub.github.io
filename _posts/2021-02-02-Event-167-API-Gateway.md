@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#167 API Gateway"
 image: /images/default.jpg
-tags: [API Gateway, Gateway, Spring]
+tags: [API Gateway, Spring]
 date: 2021-02-02 19:04:47 +0000
 video: 
 ---
