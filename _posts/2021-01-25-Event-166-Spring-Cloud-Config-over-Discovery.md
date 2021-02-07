@@ -4,7 +4,7 @@ title:  "Event#166 Spring Cloud Config over Discovery"
 image: /images/default.jpg
 tags: [Spring, Cloud, Consul, Discovery Config]
 date: 2021-01-25 16:41:08 +0000
-video: o5VPyb58vTU
+video: KKl8Uzxg144
 ---
 
 This week on JavaClub we will complete our Config Service and start implementing Service Discovery using Spring Cloud Consul.
