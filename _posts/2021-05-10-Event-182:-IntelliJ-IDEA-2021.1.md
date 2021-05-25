@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#182: IntelliJ IDEA 2021.1"
 image: /images/default.jpg
-tags: [IDE, IDEA, INTELLIJ]
+tags: [IntelliJ, IDEA]
 date: 2021-05-10 20:06:21 +0000
 video: 
 ---
