@@ -2,7 +2,7 @@
 layout: post
 title:  "Event#176 GraphQL Federation"
 image: /images/default.jpg
-tags: [scaling, GraphQL, federation]
+tags: [Scaling, GraphQL, Federation]
 date: 2021-03-29 18:04:42 +0000
 video: -LL3rCWjMmw
 ---
