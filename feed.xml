@@ -16,11 +16,11 @@ permalink: /feed.xml
 	<title>{{ post.title }}</title>
 	<link rel="alternate" type="text/html" href="{{ post.external_url | default: post.permalink | absolute_url }}" />
 		<link rel="related" type="text/html" href="{{ post.permalink | absolute_url }}" />
-	<id>{{ post.permalink | absolute_url }}</id>
+	<id>{{ post | absolute_url }}</id>
 	<published>{{ post.date | date_to_xmlschema }}</published>
 	<updated>{{ post.update_date | default: post.date | date_to_xmlschema }}</updated>
 	<author>
-		<name>{{ post.author.name }}</name>
+		<name>Lviv JavaClub</name>
 		<uri>{{ post.author.uri | default: site.url }}</uri>
 	</author>
 	<content type="html" xml:base="{{ site.url }}" xml:lang="en">
