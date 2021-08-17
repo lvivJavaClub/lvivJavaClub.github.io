@@ -11,7 +11,7 @@ permalink: /feed.xml
 <id>{{ feed_url }}</id>
 <updated>{{ site.posts[0].date | date_to_xmlschema }}</updated>
 <rights>Copyright © {{ 'now' | date: "%Y" }}, {{ site.author.name }}</rights>
-	{% assign posts = site.posts | where_exp: "post", "post.draft != true" %} {% for post in posts limit: 50 %} {% if post.feed == true %}
+	{% assign posts = site.posts | where_exp: "post", "post.draft != true" %} {% for post in posts limit: 50 %} 
 	<entry>
 	<title>{{ post.title }}</title>
 	<link rel="alternate" type="text/html" href="{{ post.external_url | default: post.permalink | absolute_url }}" />
@@ -28,5 +28,5 @@ permalink: /feed.xml
 		{{ post.content }}
 		]]>
 	</content>
-</entry>{% endif %}{% endfor %}
+</entry>{% endfor %}
 </feed>
