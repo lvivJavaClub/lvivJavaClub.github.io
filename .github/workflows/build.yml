@@ -53,8 +53,4 @@ jobs:
           git add ${{ env.FILENAME }}
           git commit -m 'Create ${{ github.event.inputs.post_title }}'
           git push
-        
-      - name: Slack Notification
-        run: |
-          curl -X POST -H 'Content-type: application/json' \
-            --data '{"text":"${{ env.MESSAGE }}\n\n${{ env.JOIN }}"}' ${{ secrets.SLACK_WEBHOOK }}
+
