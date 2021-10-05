@@ -1,8 +1,16 @@
 @import "{{ site.theme }}";
 
+.membership-header,
 .page-header {
     background-color: #3d4c9e;
     background-image: linear-gradient(120deg, #5d1ab2, #3d4c9e);
+}
+
+membership-header {
+    width: 250px;
+    float: left;
+    margin: 10px;
+    padding: 50px;
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
