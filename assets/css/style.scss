@@ -5,13 +5,19 @@
     background-image: linear-gradient(120deg, #5d1ab2, #3d4c9e);
 }
 
-.membership-header {
+div.membership-header {
     background-color: #3d4c9e;
     background-image: linear-gradient(120deg, #5d1ab2, #3d4c9e);
     width: 250px;
     float: left;
     margin: 10px;
-    padding: 50px;
+    padding: 40px 20px;
+    height: 300px;
+    text-align: center;
+}
+
+div.donate {
+
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
