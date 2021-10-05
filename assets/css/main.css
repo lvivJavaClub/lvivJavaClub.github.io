@@ -6,8 +6,8 @@
 div.membership-header {
     color: #fff;
     text-align: center;
-    background-color: #159957;
-    background-image: linear-gradient(120deg, #155799, #159957);
+    background-color: #3d4c9e;
+    background-image: linear-gradient(120deg, #5d1ab2, #3d4c9e);
     
     width: 250px;
     float: left;
@@ -17,25 +17,10 @@ div.membership-header {
     text-align: center;
 }
 
-div.donate {
-
-}
-
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     color: #3d4c9e;
 }
 
-.page-header {
-
-  @include large {
-    padding: 4rem 4rem;
-  }
-
-  @include medium {
-    padding: 3rem 3rem;
-  }
-
-  @include small {
-    padding: 2rem 1rem;
-  }
+.site-footer {
+    clear: both;
 }
