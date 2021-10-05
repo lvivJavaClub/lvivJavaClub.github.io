@@ -3,6 +3,10 @@
     background-image: linear-gradient(120deg, #5d1ab2, #3d4c9e);
 }
 
+div.membership-header h3 {
+    color: #fff;
+}
+
 div.membership-header {
     color: #fff;
     text-align: center;
