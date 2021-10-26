@@ -54,18 +54,18 @@ jobs:
           
       - name: Create post
         run: |
-          echo 'POST<<EOF' >> $GITHUB_ENV
-          echo '---' >> $GITHUB_ENV
-          echo 'layout: post' >> $GITHUB_ENV
-          echo 'title:  \"${{ github.event.inputs.post_title }}\"' >> $GITHUB_ENV
-          echo 'image: /images/default.jpg' >> $GITHUB_ENV
-          echo 'tags: [${{ github.event.inputs.tags }}]' >> $GITHUB_ENV
-          echo 'date: $(date +'%Y-%m-%d %H:%M:%S %z')' >> $GITHUB_ENV
-          echo 'video: ' >> $GITHUB_ENV
-          echo '---' >> $GITHUB_ENV
+          echo "POST<<EOF" >> $GITHUB_ENV
+          echo "---" >> $GITHUB_ENV
+          echo "layout: post" >> $GITHUB_ENV
+          echo "title:  \"${{ github.event.inputs.post_title }}\"" >> $GITHUB_ENV
+          echo "image: /images/default.jpg" >> $GITHUB_ENV
+          echo "tags: [${{ github.event.inputs.tags }}]" >> $GITHUB_ENV
+          echo "date: $(date +'%Y-%m-%d %H:%M:%S %z')" >> $GITHUB_ENV
+          echo "video: " >> $GITHUB_ENV
+          echo "---" >> $GITHUB_ENV
           echo '' >> $GITHUB_ENV
-          echo '${{ github.event.inputs.post_body }}' >> $GITHUB_ENV
-          echo 'EOF' >> $GITHUB_ENV    
+          echo "${{ github.event.inputs.post_body }}" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV    
           
       - name: Create post file
         run: |
