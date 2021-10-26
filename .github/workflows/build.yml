@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      FILENAME_PREFIX: ./_posts/$(date +'%Y-%m-%d')-$( echo '${{ github.event.inputs.post_title }}' | sed -r 's/[# ]+/-/g' ).md
+      FILENAME_PREFIX: ./_posts/$(date +'%Y-%m-%d')-
       MESSAGE: ${{ github.event.inputs.post_body }}
       JOIN: Join us next Thursday, at 10:00 ${{ github.event.inputs.room }}
     steps:
