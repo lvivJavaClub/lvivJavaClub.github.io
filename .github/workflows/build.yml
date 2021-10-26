@@ -45,7 +45,7 @@ jobs:
           echo "POST<<EOF" >> $GITHUB_ENV
           echo "---" >> $GITHUB_ENV
           echo "layout: post" >> $GITHUB_ENV
-          echo "title:  \"Event# ${{ env.next_event }} ${{ github.event.inputs.post_title }}\"" >> $GITHUB_ENV
+          echo "title:  \"Event#${{ env.next_event }} ${{ github.event.inputs.post_title }}\"" >> $GITHUB_ENV
           echo "image: /images/default.jpg" >> $GITHUB_ENV
           echo "tags: [${{ github.event.inputs.tags }}]" >> $GITHUB_ENV
           echo "date: $date" >> $GITHUB_ENV
