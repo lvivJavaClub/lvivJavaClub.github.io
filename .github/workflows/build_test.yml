@@ -54,13 +54,14 @@ jobs:
           
       - name: Create post
         run: |
+          date=$(date +'%Y-%m-%d %H:%M:%S %z')
           echo "POST<<EOF" >> $GITHUB_ENV
           echo "---" >> $GITHUB_ENV
           echo "layout: post" >> $GITHUB_ENV
           echo "title:  \"${{ github.event.inputs.post_title }}\"" >> $GITHUB_ENV
           echo "image: /images/default.jpg" >> $GITHUB_ENV
           echo "tags: [${{ github.event.inputs.tags }}]" >> $GITHUB_ENV
-          echo "date: $(date +'%Y-%m-%d %H:%M:%S %z')" >> $GITHUB_ENV
+          echo "date: $date" >> $GITHUB_ENV
           echo "video: " >> $GITHUB_ENV
           echo "---" >> $GITHUB_ENV
           echo '' >> $GITHUB_ENV
