@@ -47,8 +47,8 @@ jobs:
         run: |
           lastEvent=$(ls -LR1 | sed -E 's/[0-9]{4}-[0-9]{2}-[0-9]{2}-//;s/Event-//;s/-.*//;s/.md//' | sort -n | tail -1)
           nextEvent=$((lastEvent+1))
-          echo "next_event=${{ nextEvent }}" >> $GITHUB_ENV
-          echo "FILENAME=${{ FILENAME_PREFIX }}$( echo 'Event#${{next_event}} ${{ github.event.inputs.post_title }}' | sed -r 's/[# ]+/-/g' ).md" >> $GITHUB_ENV
+          echo "next_event=$(nextEvent)" >> $GITHUB_ENV
+          echo "FILENAME=${{ env.FILENAME_PREFIX }}$( echo 'Event#$(nextEvent) ${{ github.event.inputs.post_title }}' | sed -r 's/[# ]+/-/g' ).md" >> $GITHUB_ENV
           
           
       - name: Create post file
