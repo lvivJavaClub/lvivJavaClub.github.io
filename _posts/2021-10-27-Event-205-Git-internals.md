@@ -2,7 +2,7 @@
 layout: post
 title:  Event#205 Git internals
 image: /images/default.jpg
-tags: [GIT, INTERNALS]
+tags: [Git, Internals]
 date: 2021-10-27 14:24:31 +0000
 video: Xk5hH79dCBU
 ---
