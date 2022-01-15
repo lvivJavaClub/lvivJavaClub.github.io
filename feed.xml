@@ -27,7 +27,9 @@ permalink: /feed.xml
 		<content type="html" xml:base="{{ site.url }}" xml:lang="en">
 			<![CDATA[
 				{{ post.content }}
-			]]>
+				<img src="https://www.javaclub.lviv.ua/images/feed.jpg" />
+				{{ post.tags }}
+			]]
 		</content>
 	</entry>{% endfor %}
 </feed>
