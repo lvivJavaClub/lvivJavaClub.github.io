@@ -29,9 +29,9 @@ permalink: /feed.xml
 			<div>
 				{{ post.content }}
 				<img src="https://www.javaclub.lviv.ua/images/feed.jpg" />
-				{{ post.tags }}
+				{% for tag in page.tags %} #{{ tag }} {% endfor %}
 			</div>
-			]]
+			]]>
 		</content>
 	</entry>{% endfor %}
 </feed>
