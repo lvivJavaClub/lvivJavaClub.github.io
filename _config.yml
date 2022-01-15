@@ -5,11 +5,7 @@ url: "https://www.javaclub.lviv.ua"
 githuburl: https://github.com/lvivJavaClub
 
 theme: jekyll-theme-cayman
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: images/feed.jpg
+twitter_image: images/feed.jpg
 
 paginate: 5
 plugins:
