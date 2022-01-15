@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Event#215 Log4Shell
-image: /images/default.jpg
+image: /images/feed.jpg
 tags: [Log4Shell, Vulnerability, CVE-2021-44228]
 date: 2022-01-12 14:52:51 +0000
 video: G8nS7lMbfEY
