@@ -29,7 +29,7 @@ permalink: /feed.xml
 			<div>
 				{{ post.content }}
 				<img src="https://www.javaclub.lviv.ua/images/feed.jpg" />
-				{% for tag in page.tags %} #{{ tag }} {% endfor %}
+				{% for tag in post.tags %} #{{ tag }} {% endfor %}
 			</div>
 			]]>
 		</content>
