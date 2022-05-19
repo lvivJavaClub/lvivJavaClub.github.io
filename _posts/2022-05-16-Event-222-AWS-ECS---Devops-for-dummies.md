@@ -2,7 +2,7 @@
 layout: post
 title:  Event#222 AWS ECS - Devops for dummies
 image: /images/feed.jpg
-tags: [Amazon, ECS]
+tags: [AWS, ECS]
 date: 2022-05-16 14:07:39 +0000
 video: 
 ---
