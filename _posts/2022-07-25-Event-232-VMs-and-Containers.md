@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Event#231 VMs and Containers
+title:  Event#232 VMs and Containers
 image: /images/feed.jpg
 tags: [KVM, LXC, VMs, Containers]
 date: 2022-07-25 14:10:13 +0000
