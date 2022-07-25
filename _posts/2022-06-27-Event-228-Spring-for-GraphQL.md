@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Event#228 Spring for GraphQL
+title:  Event#229 Spring for GraphQL
 image: /images/feed.jpg
 tags: [Spring, GraphQL, Java]
 date: 2022-06-27 12:37:22 +0000
