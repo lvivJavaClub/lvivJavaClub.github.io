@@ -3,7 +3,7 @@ layout: post
 title:  Event#248 Google tink
 image: /images/feed.jpg
 tags: [Cryptography, Library, API, Crossplatform, Google]
-date: 2022-11-14 15:45:42 +0000
+date: 2022-11-14 19:00:00 +0000
 video: 
 ---
 
