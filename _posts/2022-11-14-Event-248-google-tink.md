@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Event#248 google tink
+title:  Event#248 Google tink
 image: /images/feed.jpg
-tags: [cryptography, library, API, cross-platform]
+tags: [Cryptography, Library, API, Crossplatform, Google]
 date: 2022-11-14 15:45:42 +0000
 video: 
 ---
