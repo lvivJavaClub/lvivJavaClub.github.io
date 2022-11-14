@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Event#230 tools overview
+title:  Event#230 Tools overview
 image: /images/feed.jpg
-tags: [tools, productivity]
+tags: [Tools, Productivity]
 date: 2022-07-05 18:06:06 +0000
 video: yPnzq3QbNzc
 ---
