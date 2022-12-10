@@ -29,3 +29,10 @@ div.membership-header {
 .site-footer {
     clear: both;
 }
+
+div.membership-header::after {
+    content: ""; 
+    clear: both; 
+    display: table;
+}
+
