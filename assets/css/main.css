@@ -26,13 +26,6 @@ div.membership-header {
     color: #3d4c9e;
 }
 
-.site-footer {
+.donate, .site-footer {
     clear: both;
 }
-
-div.membership-header::after {
-    content: ""; 
-    clear: both; 
-    display: table;
-}
-
