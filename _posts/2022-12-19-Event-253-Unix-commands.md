@@ -2,7 +2,7 @@
 layout: post
 title:  Event#253 Unix commands
 image: /images/feed.jpg
-tags: [linux, CLI]
+tags: [Linux, CLI]
 date: 2022-12-19 08:22:59 +0000
 video: 34jWpQRf-fQ
 ---
