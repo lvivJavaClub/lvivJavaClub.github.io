@@ -8,4 +8,4 @@ video:
 ---
 
 This week on Java Club we will be an #offline celebration of the community’s 6th 
-Join us next Thursday, at 10:00 Online
+Join us next Thursday, at 19:00 offline
