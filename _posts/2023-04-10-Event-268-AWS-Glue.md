@@ -8,4 +8,3 @@ video:
 ---
 
 Join us this Thursday at 10:00 AM for the next Lviv #JavaClub online event! We're excited to have a session on #AWS #Glue, a fully managed extract, transform, and load (ETL) service from Amazon Web Services. #LvivJavaClub
-Join us next Thursday, at 10:00 Online
