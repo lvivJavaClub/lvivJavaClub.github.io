@@ -4,7 +4,7 @@ title:  Event#265 java 20 updates
 image: /images/feed.jpg
 tags: [java20, release]
 date: 2023-03-20 15:18:44 +0000
-video: 
+video: Nc2bKjCuYL4
 ---
 
 This week on Java Club we will review the updates in just released Java 20
