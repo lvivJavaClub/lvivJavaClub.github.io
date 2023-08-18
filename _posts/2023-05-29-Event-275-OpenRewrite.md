@@ -4,7 +4,7 @@ title:  Event#275 OpenRewrite
 image: /images/feed.jpg
 tags: [OpenRewrite]
 date: 2023-05-29 14:14:23 +0000
-video: 
+video: 9ofwOR9AqSY
 ---
 
 This week on Java Club we will review OpenRewrite - the automated source code refactoring
