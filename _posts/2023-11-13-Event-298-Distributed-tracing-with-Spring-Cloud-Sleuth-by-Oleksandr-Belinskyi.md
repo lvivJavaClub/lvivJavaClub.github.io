@@ -4,7 +4,7 @@ title:  Event#298 Distributed tracing with Spring Cloud Sleuth by Oleksandr Beli
 image: /images/feed.jpg
 tags: [Distributed, Spring, Cloud, Sleuth]
 date: 2023-11-13 18:27:32 +0000
-video: 
+video: XW24hEK_sgs
 ---
 
 This week on Java Club we will review the Distributed tracing with Spring Cloud Sleuth
