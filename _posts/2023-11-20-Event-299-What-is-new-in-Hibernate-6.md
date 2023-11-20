@@ -2,7 +2,7 @@
 layout: post
 title:  Event#299 What is new in Hibernate 6
 image: /images/feed.jpg
-tags: [Hibernate, new features, 6, java, ORM, JPA, Persistence, Database]
+tags: [Hibernate, new features, java, ORM, JPA, Persistence, Database]
 date: 2023-11-20 16:38:12 +0000
 video: 
 ---
