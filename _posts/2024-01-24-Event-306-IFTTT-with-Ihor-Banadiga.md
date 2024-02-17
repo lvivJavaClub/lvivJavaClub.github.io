@@ -4,7 +4,7 @@ title:  Event#306 IFTTT with Ihor Banadiga
 image: /images/feed.jpg
 tags: [IFTTT, ]
 date: 2024-01-24 00:13:18 +0000
-video: 
+video: HfvxwaX-o-4
 ---
 
 This week on Java Club, we will review IFTTT with Ihor Banadiga! 
