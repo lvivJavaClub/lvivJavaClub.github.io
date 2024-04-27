@@ -1,6 +1,7 @@
 name: release
-on: 
-  workflow_dispatch:
+on:
+  repository_dispatch:
+    types: webhook
     inputs:
       Product:
         description: 'Product'
