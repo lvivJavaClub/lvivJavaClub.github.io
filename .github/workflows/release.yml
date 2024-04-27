@@ -1,0 +1,87 @@
+name: release
+on: 
+  workflow_dispatch:
+    inputs:
+      Product:
+        description: 'Product'
+        default: ''
+        required: true
+      FeedTitle:
+        description: 'FeedTitle'
+        default: ''
+        required: true
+      FeedUrl:
+        description: 'FeedUrl'
+        default: ''
+        required: true
+      EntryTitle:
+        description: 'EntryTitle'
+        default: ''
+        required: true
+      EntryUrl:
+        description: 'EntryUrl'
+        default: ''
+        required: true
+      EntryPublished:
+        description: 'EntryPublished'
+        default: ''
+        required: true
+      EntryImageUrl:
+        description: 'EntryImageUrl'
+        default: ''
+        required: true
+      EntryContent:
+        description: 'EntryContent'
+        default: ''
+        required: true
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    
+    env:
+      FILENAME_PREFIX: ./_release/
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: File name
+        run: |
+          echo "FILENAME=${{ env.FILENAME_PREFIX }}${{ github.event.inputs.Product }}-${{ github.event.inputs.EntryTitle }}" >> $GITHUB_ENV
+
+      - name: Create head
+        run: |
+          echo "HEAD<<EOF" >> $GITHUB_ENV
+          echo "---" >> $GITHUB_ENV
+          echo "Product:  \"${{ github.event.inputs.Product }}\"" >> $GITHUB_ENV
+          echo "FeedTitle:  \"${{ github.event.inputs.FeedTitle }}\"" >> $GITHUB_ENV
+          echo "FeedUrl:  \"${{ github.event.inputs.FeedUrl }}\"" >> $GITHUB_ENV
+
+          echo "EntryTitle:  \"${{ github.event.inputs.EntryTitle }}\"" >> $GITHUB_ENV
+          echo "EntryUrl:  \"${{ github.event.inputs.EntryUrl }}\"" >> $GITHUB_ENV
+          echo "EntryPublished:  \"${{ github.event.inputs.EntryPublished }}\"" >> $GITHUB_ENV
+          echo "EntryImageUrl:  \"${{ github.event.inputs.EntryImageUrl }}\"" >> $GITHUB_ENV
+
+          echo "---" >> $GITHUB_ENV
+          echo '' >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Create post
+        run: |
+          echo "POST<<EOF" >> $GITHUB_ENV
+          echo "${{ github.event.inputs.EntryContent }}" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+          
+      - name: Create post file
+        run: |
+          echo -e "${{ env.HEAD }}${{ env.POST }}" > "${{ env.FILENAME }}"
+            
+      - name: Push new release
+        run: |
+          git config --global user.email "releases@lvivjavaclub.github.io"
+          git config --global user.name "GitHub actions"
+          git add ${{ env.FILENAME }}
+          git commit -m 'Create ${{ env.FILENAME }}'
+          git push
+
