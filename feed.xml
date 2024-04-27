@@ -17,7 +17,7 @@ permalink: /feed.xml
 		<link rel="alternate" type="text/html" href="{{ post | absolute_url }}" />
 		<link rel="related" type="text/html" href="{{ post | absolute_url }}" />
 		<id>{{ post | absolute_url }}</id>
-		<imageUrl><![CDATA[
+		<imageUrl xml:lang="en"><![CDATA[
 			{{ site.url }}/images/feed.jpg
 		]]></imageUrl>
 		<published>{{ post.date | date_to_xmlschema }}</published>

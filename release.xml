@@ -17,7 +17,10 @@ permalink: /release.xml
     <!-- <link rel="alternate" type="text/html" href="{{ release | absolute_url }}" /> -->
     <!-- <link rel="related" type="text/html" href="{{ release | absolute_url }}" /> -->
     <!-- <id>{{ release | absolute_url }}</id> -->
-    <imageUrl>{{ release.EntryImageUrl }}</imageUrl>
+    <imageUrl xml:lang="en">
+      <![CDATA[
+      {{ release.EntryImageUrl }}
+    ]]></imageUrl>
     <published>{{ release.EntryPublished | date_to_xmlschema }}</published>
     <!-- <updated>{{ release.update_date | default: release.date | date_to_xmlschema }}</updated> -->
     <author>
