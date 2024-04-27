@@ -11,7 +11,7 @@ permalink: /release.xml
 <id>{{ feed_url }}</id>
 <updated>{{ site.releases[0].EntryPublished | date_to_xmlschema }}</updated>
 <rights>Copyright © {{ 'now' | date: "%Y" }}, Lviv JavaClub</rights>
-{% assign releases = site.releases %} {% for release in releases limit: 50 %} 
+  {% assign releases = site.releases | where_exp: "post", "post.draft != true" %} {% for release in releases limit: 50 %} 
   <entry>
     <title>{{ release.FeedTitle }}</title>
     <!-- <link rel="alternate" type="text/html" href="{{ release | absolute_url }}" /> -->
