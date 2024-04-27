@@ -11,11 +11,19 @@ permalink: /release.xml
   {% assign releases = site.releases | where_exp: "post", "post.draft != true" %} {% for release in releases limit: 50 %} 
   <entry>
     <title>{{ release.FeedTitle }}</title>
+    <link rel="alternate" type="text/html" href="{{ post | absolute_url }}" />
+    <link rel="related" type="text/html" href="{{ post | absolute_url }}" />
+    <id>{{ post | absolute_url }}</id>
     <imageUrl xml:lang="en">
       <![CDATA[
       {{ release.EntryImageUrl }}
     ]]></imageUrl>
     <published>{{ release.EntryPublished | date_to_xmlschema }}</published>
+    <updated>{{ release.EntryPublished | default: post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>{{ release.Product }}</name>
+      <uri>{{ release.EntryUrl | default: site.url }}</uri>
+    </author>
     <content type="html" xml:base="{{ site.url }}" xml:lang="en">
       <![CDATA[
       <div>
