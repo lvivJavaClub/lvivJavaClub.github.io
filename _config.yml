@@ -7,6 +7,9 @@ githuburl: https://github.com/lvivJavaClub
 theme: jekyll-theme-cayman
 twitter_image: images/feed.jpg
 
+collections:
+  - release
+
 paginate: 5
 plugins:
   - jekyll-feed
