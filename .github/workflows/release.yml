@@ -48,7 +48,7 @@ jobs:
 
       - name: File name
         run: |
-          echo "FILENAME=${{ env.FILENAME_PREFIX }}${{ github.event.inputs.Product }}-${{ github.event.inputs.EntryTitle }}" >> $GITHUB_ENV
+          echo "FILENAME=${{ env.FILENAME_PREFIX }}${{ github.event.inputs.Product }}-${{ github.event.inputs.EntryTitle }}.md" >> $GITHUB_ENV
 
       - name: Create head
         run: |
