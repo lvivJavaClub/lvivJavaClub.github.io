@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      FILENAME_PREFIX: ./_release/
+      FILENAME_PREFIX: ./_releases/
 
     steps:
       - name: Checkout repository
