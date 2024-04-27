@@ -1,7 +1,6 @@
 name: release
 on:
   workflow_dispatch:
-    types: webhook
     inputs:
       Product:
         description: 'Product'
