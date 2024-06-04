@@ -2,6 +2,10 @@ name: Site build
 on: 
   workflow_dispatch:
     inputs:
+      speaker:
+        description: 'Specify the speaker of the event'
+        default: ''
+        required: true
       post_title:
         description: 'Used for filename and post.sh name. The space will be replaced by `-` inv the file name.'
         default: ''
@@ -45,7 +49,7 @@ jobs:
           echo "POST<<EOF" >> $GITHUB_ENV
           echo "---" >> $GITHUB_ENV
           echo "layout: post" >> $GITHUB_ENV
-          echo "title:  \"Event#${{ env.next_event }} ${{ github.event.inputs.post_title }}\"" >> $GITHUB_ENV
+          echo "title:  \"Event#${{ env.next_event }} ${{ github.event.inputs.post_title }} by ${{ github.event.inputs.speaker }}\"" >> $GITHUB_ENV
           echo "image: /images/feed.jpg" >> $GITHUB_ENV
           echo "tags: [${{ github.event.inputs.tags }}]" >> $GITHUB_ENV
           echo "date: $date" >> $GITHUB_ENV
