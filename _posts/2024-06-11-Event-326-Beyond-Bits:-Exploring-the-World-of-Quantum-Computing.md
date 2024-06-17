@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Event#326 Beyond Bits: Exploring the World of Quantum Computing by Ivan Verhun
+title:  Event#326 Beyond Bits Exploring the World of Quantum Computing by Ivan Verhun
 image: /images/feed.jpg
 tags: [Quantum, Computing, Bit, Qubit, Entanglement, Superposition, Interference, Probability]
 date: 2024-06-11 10:20:42 +0000
