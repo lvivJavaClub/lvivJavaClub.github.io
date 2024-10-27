@@ -4,7 +4,7 @@ title:  Event#337 Local Sensitive Hashing by Oleksii Milovskyi
 image: /images/feed.jpg
 tags: [Java,Hashing]
 date: 2024-08-27 07:14:11 +0000
-video: 
+video: Ws64FAJ8Nj4
 ---
 
 This week on Java Club we will review the Local Sensitive Hashing
