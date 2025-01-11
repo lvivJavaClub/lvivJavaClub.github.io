@@ -6,6 +6,9 @@ url: "https://www.javaclub.lviv.ua"
 githuburl: https://github.com/lvivJavaClub
 theme: jekyll-theme-cayman
 
+site:
+  favicon: "/assets/favicon.ico"
+  
 # Author information
 author:
   name: "Lviv Java Club"
@@ -18,14 +21,6 @@ paginate: 5
 # Collections
 collections:
   - releases
-
-# Favicon
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      favicon: "/assets/favicon.ico"
 
 # Plugins
 plugins:
