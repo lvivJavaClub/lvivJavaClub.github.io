@@ -1,12 +1,16 @@
+# Site settings
 title: Lviv JavaClub
 description: > #
   Let's become the best together
 url: "https://www.javaclub.lviv.ua"
 githuburl: https://github.com/lvivJavaClub
-
 theme: jekyll-theme-cayman
-twitter_image: images/feed.jpg
 
+# Other
+twitter_image: images/feed.jpg
+paginate: 5
+
+# Collections
 collections:
   - releases
 
@@ -17,9 +21,10 @@ defaults:
       path: ""
     values:
       favicon: "/assets/favicon.ico"
-      
-paginate: 5
+
+# Plugins
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
 
 # Google services
