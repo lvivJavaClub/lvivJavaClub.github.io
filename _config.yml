@@ -10,12 +10,13 @@ twitter_image: images/feed.jpg
 collections:
   - releases
 
+# Favicon
 defaults:
   -
     scope:
       path: ""
     values:
-      favicon: "/favicon.ico"
+      favicon: "/assets/favicon.ico"
       
 paginate: 5
 plugins:
