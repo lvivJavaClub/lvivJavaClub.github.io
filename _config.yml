@@ -11,7 +11,8 @@ collections:
   - releases
 
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
     values:
       favicon: "/favicon.ico"
