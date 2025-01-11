@@ -6,6 +6,11 @@ url: "https://www.javaclub.lviv.ua"
 githuburl: https://github.com/lvivJavaClub
 theme: jekyll-theme-cayman
 
+# Author information
+author:
+  name: "Lviv Java Club"
+  email: "lviv.javaclub@gmail.com"
+  
 # Other
 twitter_image: images/feed.jpg
 paginate: 5
