@@ -10,6 +10,12 @@ twitter_image: images/feed.jpg
 collections:
   - releases
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      favicon: "/favicon.ico"
+      
 paginate: 5
 plugins:
   - jekyll-feed
