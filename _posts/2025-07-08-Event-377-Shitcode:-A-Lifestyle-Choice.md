@@ -2,7 +2,7 @@
 layout: post
 title:  Event#377 Shitcode A Lifestyle Choice by Ivan Verhun
 image: /images/feed.jpg
-tags: [clean code, java]
+tags: [cleancode, java]
 date: 2025-07-08 21:27:41 +0000
 video: 
 ---
