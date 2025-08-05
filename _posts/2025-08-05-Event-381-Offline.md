@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Event#381 1 by Offline event
+title:  Event#381 Offline event
 image: /images/feed.jpg
-tags: [Online]
+tags: [offline]
 date: 2025-08-05 12:03:51 +0000
 video: 
 ---
