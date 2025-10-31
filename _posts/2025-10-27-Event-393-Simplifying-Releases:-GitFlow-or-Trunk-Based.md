@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Event#393 Simplifying Releases: GitFlow or Trunk-Based by Roman Kniazevych
+title:  Event#393 Simplifying Releases\: GitFlow or Trunk-Based by Roman Kniazevych
 image: /images/feed.jpg
 tags: [gitflow, trunk based, release, proccess, devops]
 date: 2025-10-27 14:04:34 +0000
