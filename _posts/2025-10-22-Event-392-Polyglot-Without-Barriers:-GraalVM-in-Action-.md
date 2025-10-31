@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Event#392 Polyglot Without Barriers: GraalVM in Action by Ihor Didyk
+title:  Event#392 Polyglot Without Barriers\: GraalVM in Action by Ihor Didyk
 image: /images/feed.jpg
 tags: [Online, GraalVM, Polyglot]
 date: 2025-10-22 11:42:11 +0000
