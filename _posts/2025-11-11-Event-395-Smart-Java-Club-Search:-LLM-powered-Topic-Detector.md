@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Event#395 Smart Java Club Search: LLM-powered Topic Detector by Michael Kami
+title:  "Event#395 Smart Java Club Search: LLM-powered Topic Detector by Michael Kami"
 image: /images/feed.jpg
 tags: [LLM, AI, Smart search]
 date: 2025-11-11 09:32:32 +0000
