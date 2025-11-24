@@ -7,5 +7,5 @@ date: 2025-11-24 15:45:26 +0000
 video: 
 ---
 
-This week on Java Club we will review the
+This week on Java Club we will review the Spring 7 @ Spring boot 4
 Join us next Thursday, at 10:00 Online
