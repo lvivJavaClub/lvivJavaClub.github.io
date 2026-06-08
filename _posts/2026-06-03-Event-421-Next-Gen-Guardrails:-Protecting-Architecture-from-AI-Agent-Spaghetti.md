@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Event#421 Next-Gen Guardrails: Protecting Architecture from AI Agent Spaghetti by Roman Knyazevych
+title:  Event#421 Next-Gen Guardrails - Protecting Architecture from AI Agent Spaghetti by Roman Knyazevych
 image: /images/feed.jpg
 tags: [AI,Spaghetti,Agent,ArchUnit,Modulith,Spring,]
 date: 2026-06-03 17:46:26 +0000
