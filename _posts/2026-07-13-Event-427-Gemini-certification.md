@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Event#426 Gemini certification by Yuriy Stakhniak
+title:  Event#427 Gemini certification by Yuriy Stakhniak
 image: /images/feed.jpg
 tags: [Google, Gemini, AI, certificate, certification, certified]
 date: 2026-07-13 20:31:18 +0000
