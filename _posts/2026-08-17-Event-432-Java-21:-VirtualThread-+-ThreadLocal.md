@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Event#432 Java 21: VirtualThread + ThreadLocal by Roman Kniazevych
+title:  Event#432 Java 21 VirtualThread + ThreadLocal by Roman Kniazevych
 image: /images/feed.jpg
 tags: [java, java 21, concurrency, threads, virtual thread]
 date: 2026-08-17 12:50:39 +0000
