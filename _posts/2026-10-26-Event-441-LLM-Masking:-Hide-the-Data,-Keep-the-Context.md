@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Event#439 LLM Masking: Hide the Data, Keep the Context by Michael Kaminetskyi
+title:  Event#441 LLM Masking Hide the Data Keep the Context by Michael Kaminetskyi
 image: /images/feed.jpg
 tags: [LLM, Data Masking, Privacy, Security, AI Applications, PII Protection, Data Privacy, Context Preservation, Enterprise Security, Compliance]
 date: 2026-10-26 13:59:02 +0000
