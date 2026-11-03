@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Event#438 AI Dark Factory by Yuriy Stakhniak
+title:  Event#439 AI Dark Factory by Yuriy Stakhniak
 image: /images/feed.jpg
 tags: [AI, Java, Automation, AIDarkFactory, DarkFactory, AutonomousAI, AIAgents]
 date: 2026-10-12 13:24:04 +0000
