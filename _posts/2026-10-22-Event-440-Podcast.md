@@ -3,7 +3,7 @@ layout: post
 title:  Event#440 Podcast by Ivan Verhun
 image: /images/feed.jpg
 tags: [Offline, Podcast]
-date: 2026-09-22 20:43:23 +0000
+date: 2026-10-22 20:43:23 +0000
 video: 
 ---
 
